@@ -29,6 +29,7 @@ SWEP.ShouldDoMoveSpread = false
 SWEP.IsUSASReloading = false
 
 local ReloadSound = "Weapon_usas.draw"
+local IsValid = IsValid
 
 function SWEP:CanPrimaryAttack()
 	if not SERVER and self.Owner ~= LocalPlayer() or self.IsUSASReloading then return end
@@ -71,6 +72,7 @@ function SWEP:Reload() -- This function has some serious and crappy workarounds,
 				self:SendWeaponAnim(ACT_SHOTGUN_RELOAD_FINISH)
 
 				timer.Create(TimerName,0.7,1,function()
+					if not IsValid( self.Owner ) then return end
 					self:SetClip1(self.Owner:GetAmmoCount(self.Primary.Ammo) >= 20 and 20 or self.Owner:GetAmmoCount(self.Primary.Ammo))
 					self.IsUSASReloading = false
 
