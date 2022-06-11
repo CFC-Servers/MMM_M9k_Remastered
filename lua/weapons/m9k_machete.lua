@@ -36,6 +36,7 @@ SWEP.ModelViewBlacklistedBones = {
 
 SWEP.DeploySound = "weapons/knife/knife_draw_x.mp3"
 
+local IsValid = IsValid
 local VectorCache1 = Vector(0,500,0)
 local damageInfo = DamageInfo()
 
@@ -95,6 +96,7 @@ function SWEP:PrimaryAttack() -- Stabby stab stab
 			local Dur = vm:SequenceDuration()
 
 			timer.Create("M9k_MMM_Grenade_Grenadethrow" .. self.OurIndex,0.1,1,function() -- Attack damage is delayed!
+                if not IsValid(self) or not IsValid(self.Owner) or not IsValid(self.Owner:GetActiveWeapon()) or self.Owner:GetActiveWeapon():GetClass() ~= self:GetClass() then return end
 
 				if SERVER then
 					self:StabLogic()
