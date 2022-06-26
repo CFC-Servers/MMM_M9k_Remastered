@@ -135,8 +135,12 @@ function SWEP:PrimaryAttack()
 		local Spread = self.Primary.Spread
 
 		if self.ShouldDoMoveSpread then
-			if self.Owner:GetVelocity():Length() > 100 then
-				Spread = self.Primary.Spread * 6
+		    local speed = self.Owner:GetVelocity():Length()
+
+			if speed >= 400 then
+			    Spread = self.Primary.Spread * 2
+            elseif speed >= 200 then
+                Spread = self.Primary.Spread * 1.2
 			elseif self.Owner:KeyDown(IN_DUCK) then
 				Spread = self.Primary.Spread / 2
 			end
@@ -184,7 +188,7 @@ function SWEP:PrimaryAttack()
 		if CLIENT and game.SinglePlayer() then return end
 
 		self:TakePrimaryAmmo(1)
-		self:ShootBullet((1 * self.Primary.Damage) * math.Rand(.85,1.3),self.Primary.Recoil,self.Primary.NumShots,Spread)
+		self:ShootBullet((1 * self.Primary.Damage) * math.Rand(0.9, 1.1),self.Primary.Recoil,self.Primary.NumShots,Spread)
 		self:AttackAnimation()
 		self:EmitSound(self.Primary.Sound)
 	end
