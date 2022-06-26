@@ -69,8 +69,12 @@ function SWEP:PrimaryAttack()
 		local Spread = self.Primary.Spread
 
 		if self.ShouldDoMoveSpread then
-			if self.Owner:GetVelocity():Length() > 100 then
-				Spread = self.Primary.Spread * 6
+		    local speed = self.Owner:GetVelocity():Length()
+
+		    if speed >= 400 then
+		        Spread = self.Primary.Spread * 2
+            elseif speed >= 200 then
+                Spread = self.Primary.Spread * 1.2
 			elseif self.Owner:KeyDown(IN_DUCK) then
 				Spread = self.Primary.Spread / 2
 			end
