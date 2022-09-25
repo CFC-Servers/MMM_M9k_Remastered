@@ -38,6 +38,8 @@ function SWEP:PrimaryAttack() -- Stabby stab stab
 			local Dur = vm:SequenceDuration()
 
 			timer.Create("M9k_MMM_Grenade_Grenadethrow" .. self.OurIndex,0.1,1,function() -- Attack damage is delayed!
+                if not IsValid( self ) then return end
+
 				if SERVER then
 					local Pos = self.Owner:EyePos()
 					local tTrace = util.TraceHull({
