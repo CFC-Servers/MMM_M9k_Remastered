@@ -2,7 +2,7 @@ sound.Add({
 	name = "mp40.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/mp40/mp5-1.wav"
+	sound = "weapons/mp40/mp5-1.mp3"
 })
 
 sound.Add({
@@ -30,7 +30,7 @@ sound.Add({
 	name = "MAG_PDR.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = {"weapons/pdr/pdr-1.wav","weapons/pdr/pdr-2.wav","weapons/pdr/pdr-3.wav"}
+	sound = {"weapons/pdr/pdr-1.wav","weapons/pdr/pdr-2.wav","weapons/pdr/pdr-3.mp3"}
 })
 
 sound.Add({
@@ -72,14 +72,14 @@ sound.Add({
 	name = "KAC_PDW.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/kac_pdw/m4a1_unsil-1.wav"
+	sound = "weapons/kac_pdw/m4a1_unsil-1.mp3"
 })
 
 sound.Add({
 	name = "KAC_PDW.SilentSingle",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/kac_pdw/m4a1-1.wav"
+	sound = "weapons/kac_pdw/m4a1-1.mp3"
 })
 
 sound.Add({
@@ -128,7 +128,7 @@ sound.Add({
 	name = "mp5_navy_Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/brightmp5/mp5-1.wav"
+	sound = "weapons/brightmp5/mp5-1.mp3"
 })
 
 sound.Add({
@@ -191,7 +191,7 @@ sound.Add({
 	name = "Weapon_Tec9.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/tec9/ump45-1.wav"
+	sound = "weapons/tec9/ump45-1.mp3"
 })
 
 sound.Add({
@@ -226,7 +226,7 @@ sound.Add({
 	name = "kriss_vector.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/Kriss/ump45-1.wav"
+	sound = "weapons/Kriss/ump45-1.mp3"
 })
 
 sound.Add({
@@ -275,7 +275,7 @@ sound.Add({
 	name = "Weapon_mp9.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/mp9/tmp-1.wav"
+	sound = "weapons/mp9/tmp-1.mp3"
 })
 
 sound.Add({
@@ -296,7 +296,7 @@ sound.Add({
 	name = "m9k_hk_ump45.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/hk_ump45/ump45-1.wav"
+	sound = "weapons/hk_ump45/ump45-1.mp3"
 })
 
 sound.Add({
@@ -345,7 +345,7 @@ sound.Add({
 	name = "Weapon_P19.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/p19/p90-1.wav"
+	sound = "weapons/p19/p90-1.mp3"
 })
 
 sound.Add({
@@ -373,7 +373,7 @@ sound.Add({
 	name = "P90_weapon.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/p90_smg/p90-1.wav"
+	sound = "weapons/p90_smg/p90-1.mp3"
 })
 
 sound.Add({
@@ -408,7 +408,7 @@ sound.Add({
 	name = "Weaponsten.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/sten/mp5-1.wav"
+	sound = "weapons/sten/mp5-1.mp3"
 })
 
 sound.Add({
@@ -450,7 +450,7 @@ sound.Add({
 	name = "Weapon_tmg.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/tmg/tmg_1.wav"
+	sound = "weapons/tmg/tmg_1.mp3"
 })
 
 sound.Add({
@@ -478,7 +478,7 @@ sound.Add({
 	name = "Weapon_MP7.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/mp7/usp1.wav"
+	sound = "weapons/mp7/usp1.mp3"
 })
 
 sound.Add({
@@ -506,7 +506,7 @@ sound.Add({
 	name = "Weapon_uzi.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/uzi/mac10-1.wav"
+	sound = "weapons/uzi/mac10-1.mp3"
 })
 
 sound.Add({
@@ -534,7 +534,7 @@ sound.Add({
 	name = "Weapon_hkmp5sd.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/hkmp5sd/mp5-1.wav"
+	sound = "weapons/hkmp5sd/mp5-1.mp3"
 })
 
 sound.Add({
@@ -590,7 +590,7 @@ sound.Add({
 	name = "Weapon_HoneyB.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/hb/hb_fire.wav"
+	sound = "weapons/hb/hb_fire.mp3"
 })
 
 sound.Add({
@@ -632,7 +632,7 @@ sound.Add({
 	name = "Weapon_ColtPython.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/coltpython/python-1.wav"
+	sound = "weapons/coltpython/python-1.mp3"
 })
 
 sound.Add({
@@ -667,7 +667,7 @@ sound.Add({
 	name = "weapon_r_bull.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/r_bull/r-bull-1.wav"
+	sound = "weapons/r_bull/r-bull-1.mp3"
 })
 
 sound.Add({
@@ -688,7 +688,7 @@ sound.Add({
 	name = "Model3.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/model3/model3-1.wav"
+	sound = "weapons/model3/model3-1.mp3"
 })
 
 sound.Add({
@@ -744,7 +744,7 @@ sound.Add({
 	name = "Weapon_satan1.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/satan1/satan-1.wav"
+	sound = "weapons/satan1/satan-1.mp3"
 })
 
 sound.Add({
@@ -779,7 +779,7 @@ sound.Add({
 	name = "Remington.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/remington/remington-1.wav"
+	sound = "weapons/remington/remington-1.mp3"
 })
 
 sound.Add({
@@ -828,7 +828,7 @@ sound.Add({
 	name = "Weapon_m92b.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = ")weapons/beretta92/berettam92-1.wav"
+	sound = ")weapons/beretta92/berettam92-1.mp3"
 })
 
 sound.Add({
@@ -870,7 +870,7 @@ sound.Add({
 	name = "Weapon_hk45.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/hk45/hk45-1.wav"
+	sound = "weapons/hk45/hk45-1.mp3"
 })
 
 sound.Add({
@@ -912,7 +912,7 @@ sound.Add({
 	name = "Weapon_fokkususp.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/fokku_tc_usp/fiveseven-1.wav"
+	sound = "weapons/fokku_tc_usp/fiveseven-1.mp3"
 })
 
 sound.Add({
@@ -947,7 +947,7 @@ sound.Add({
 	name = "Sauer1_P228.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/sig_p228/p228-1.wav"
+	sound = "weapons/sig_p228/p228-1.mp3"
 })
 
 sound.Add({
@@ -996,7 +996,7 @@ sound.Add({
 	name = "Dmgfok_glock.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/dmg_glock/mac10-1.wav"
+	sound = "weapons/dmg_glock/mac10-1.mp3"
 })
 
 sound.Add({
@@ -1038,7 +1038,7 @@ sound.Add({
 	name = "Dmgfok_co1911.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/dmg_colt1911/deagle-1.wav"
+	sound = "weapons/dmg_colt1911/deagle-1.mp3"
 })
 
 sound.Add({
@@ -1073,7 +1073,7 @@ sound.Add({
 	name = "Weapon_luger.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/luger/luger-1.wav"
+	sound = "weapons/luger/luger-1.mp3"
 })
 
 sound.Add({
@@ -1101,7 +1101,7 @@ sound.Add({
 	name = "Weapon_TDegle.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/fokku_tc_deagle/deagle-1.wav"
+	sound = "weapons/fokku_tc_deagle/deagle-1.mp3"
 })
 
 sound.Add({
@@ -1136,7 +1136,7 @@ sound.Add({
 	name = "Sauer1_P228.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1,
-	sound = "weapons/sig_p228/p228-1.wav"
+	sound = "weapons/sig_p228/p228-1.mp3"
 })
 
 sound.Add({
@@ -1185,7 +1185,7 @@ sound.Add({
 	name = "Model_500.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/model500/deagle-1.wav"
+	sound = "weapons/model500/deagle-1.mp3"
 })
 
 sound.Add({
@@ -1220,7 +1220,7 @@ sound.Add({
 	name = "model_627perf.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/627/deagle-1.wav"
+	sound = "weapons/627/deagle-1.mp3"
 })
 
 sound.Add({
@@ -1269,7 +1269,7 @@ sound.Add({
 	name = "Weapon_hkusc.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = {"weapons/usc/ump45-1.wav","weapons/usc/ump45-2.wav"}
+	sound = {"weapons/usc/ump45-1.wav","weapons/usc/ump45-2.mp3"}
 })
 
 sound.Add({

@@ -31,7 +31,7 @@ if SERVER then
 
 		SafeRemoveEntityDelayed(burnFX,10)
 
-		self.sSound = CreateSound(burnFX,"weapons/flaregun/burn.wav")
+		self.sSound = CreateSound(burnFX,"weapons/flaregun/burn.mp3")
 			self.sSound:Play()
 
 		timer.Simple(0,function() -- For some dumb reason this has to happen in the next tick
@@ -59,7 +59,7 @@ if SERVER then
 
 		Target:Ignite(10)
 
-		local sSound = CreateSound(burnFX,"weapons/flaregun/burn.wav")
+		local sSound = CreateSound(burnFX,"weapons/flaregun/burn.mp3")
 			sSound:Play()
 
 		timer.Simple(10,function()

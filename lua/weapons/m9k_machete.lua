@@ -134,7 +134,7 @@ function SWEP:SecondaryAttack()
 				if not IsValid(self) or not IsValid(self.Owner) or not IsValid(self.Owner:GetActiveWeapon()) or self.Owner:GetActiveWeapon():GetClass() ~= self:GetClass() then return end
 
 				if SERVER then
-					self:EmitSound("weapons/iceaxe/iceaxe_swing1.wav")
+					self:EmitSound("weapons/iceaxe/iceaxe_swing1.mp3")
 
 					local Ang = self.Owner:EyeAngles() -- Taken from TTT base grenade since it is quite good in my opinion
 					local Src = self.Owner:GetPos() + (self.Owner:Crouching() and self.Owner:GetViewOffsetDucked() or self.Owner:GetViewOffset()) + (Ang:Forward() * 8) + (Ang:Right() * 10)

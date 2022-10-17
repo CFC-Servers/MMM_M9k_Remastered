@@ -89,7 +89,7 @@ function SWEP:PrimaryAttack() -- Stabby stab stab
 							util.Decal("Impact.Concrete",eyeTrace.HitPos + eyeTrace.HitNormal,eyeTrace.HitPos - eyeTrace.HitNormal,self.Owner)
 						end
 					else
-						self:EmitSound("weapons/iceaxe/iceaxe_swing1.wav")
+						self:EmitSound("weapons/iceaxe/iceaxe_swing1.mp3")
 					end
 				end
 
@@ -126,7 +126,7 @@ function SWEP:SecondaryAttack() -- This is defined here since we have a specific
 
 				if SERVER then
 					self:TakePrimaryAmmo(1)
-					self:EmitSound("weapons/iceaxe/iceaxe_swing1.wav")
+					self:EmitSound("weapons/iceaxe/iceaxe_swing1.mp3")
 
 					local Ang = self.Owner:EyeAngles() -- Taken from TTT base grenade since it is quite good in my opinion
 					local Src = self.Owner:GetPos() + (self.Owner:Crouching() and self.Owner:GetViewOffsetDucked() or self.Owner:GetViewOffset()) + (Ang:Forward() * 8) + (Ang:Right() * 10)

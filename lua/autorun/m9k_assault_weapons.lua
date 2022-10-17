@@ -2,14 +2,14 @@ sound.Add({
 	name = "an94.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/an94/galil-1.wav"
+	sound = "weapons/an94/galil-1.mp3"
 })
 
 sound.Add({
 	name = "an94.double",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/an94/doubletap.wav"
+	sound = "weapons/an94/doubletap.mp3"
 })
 
 sound.Add({
@@ -44,7 +44,7 @@ sound.Add({
 	name = "amd65.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/amd65/amd-1.wav"
+	sound = "weapons/amd65/amd-1.mp3"
 })
 
 sound.Add({
@@ -79,7 +79,7 @@ sound.Add({
 	name = "Wep_imitavor.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/tavor/famas-1.wav"
+	sound = "weapons/tavor/famas-1.mp3"
 })
 
 sound.Add({
@@ -135,7 +135,7 @@ sound.Add({
 	name = "Weapon_F2000.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = {"weapons/fokku_tc_f2000/shot-1.wav","weapons/fokku_tc_f2000/shot-2.wav","weapons/fokku_tc_f2000/shot-3.wav","weapons/fokku_tc_f2000/shot-4.wav"}
+	sound = {"weapons/fokku_tc_f2000/shot-1.wav","weapons/fokku_tc_f2000/shot-2.wav","weapons/fokku_tc_f2000/shot-3.wav","weapons/fokku_tc_f2000/shot-4.mp3"}
 })
 
 sound.Add({
@@ -191,7 +191,7 @@ sound.Add({
 	name = "47ak.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/AYKAYFORTY/ak47-1.wav"
+	sound = "weapons/AYKAYFORTY/ak47-1.mp3"
 })
 
 sound.Add({
@@ -219,7 +219,7 @@ sound.Add({
 	name = "Weapon_M14SP.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/fokku_tc_m14/sg550-1.wav"
+	sound = "weapons/fokku_tc_m14/sg550-1.mp3"
 })
 
 sound.Add({
@@ -254,7 +254,7 @@ sound.Add({
 	name = "G36.single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/G36/m4a1_unsil-1.wav"
+	sound = "weapons/G36/m4a1_unsil-1.mp3"
 })
 
 sound.Add({
@@ -338,7 +338,7 @@ sound.Add({
 	name = "Weapon_73.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/winchester73/w73-1.wav"
+	sound = "weapons/winchester73/w73-1.mp3"
 })
 
 sound.Add({
@@ -359,7 +359,7 @@ sound.Add({
 	name = "Weapon_l85.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/L85A2/aug-1.wav"
+	sound = "weapons/L85A2/aug-1.mp3"
 })
 
 sound.Add({
@@ -408,7 +408,7 @@ sound.Add({
 	name = "aug_a3.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = {"weapons/auga3/aug-1.wav","weapons/auga3/aug-2.wav"}
+	sound = {"weapons/auga3/aug-1.wav","weapons/auga3/aug-2.mp3"}
 })
 
 sound.Add({
@@ -443,7 +443,7 @@ sound.Add({
 	name = "Weapon_FAMTC.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = {"weapons/fokku_tc_famas/shot-1.wav","weapons/fokku_tc_famas/shot-2.wav"}
+	sound = {"weapons/fokku_tc_famas/shot-1.wav","weapons/fokku_tc_famas/shot-2.mp3"}
 })
 
 sound.Add({
@@ -471,7 +471,7 @@ sound.Add({
 	name = "Dmgfok_vally.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/dmg_val/galil-1.wav"
+	sound = "weapons/dmg_val/galil-1.mp3"
 })
 
 sound.Add({
@@ -506,7 +506,7 @@ sound.Add({
 	name = "Dmgfok_vikhr.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/dmg_vikhr/galil-1.wav"
+	sound = "weapons/dmg_vikhr/galil-1.mp3"
 })
 
 sound.Add({
@@ -548,7 +548,7 @@ sound.Add({
 	name = "Masada.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = ")weapons/masadamagpul/masada_unsil.wav"
+	sound = ")weapons/masadamagpul/masada_unsil.mp3"
 })
 
 sound.Add({
@@ -639,7 +639,7 @@ sound.Add({
 	name = "Dmgfok_M4A1.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/dmg_m4a1/m4a1_unsil-1.wav"
+	sound = "weapons/dmg_m4a1/m4a1_unsil-1.mp3"
 })
 
 sound.Add({
@@ -695,7 +695,7 @@ sound.Add({
 	name = "Dmgfok_M16A4.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = ")weapons/dmg_m16a4/shoot.wav"
+	sound = ")weapons/dmg_m16a4/shoot.mp3"
 })
 
 sound.Add({
@@ -730,7 +730,7 @@ sound.Add({
 	name = "Tactic_AK47.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/fokku_tc_ak47/ak47-1.wav"
+	sound = "weapons/fokku_tc_ak47/ak47-1.mp3"
 })
 
 sound.Add({
@@ -758,7 +758,7 @@ sound.Add({
 	name = "Wep_fnscarh.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = {"weapons/fnscarh/aug-1.wav","weapons/fnscarh/aug-2.wav","weapons/fnscarh/aug-3.wav"}
+	sound = {"weapons/fnscarh/aug-1.wav","weapons/fnscarh/aug-2.wav","weapons/fnscarh/aug-3.mp3"}
 })
 
 sound.Add({
@@ -793,7 +793,7 @@ sound.Add({
 	name = "fnfal.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/fn_fal/galil-1.wav"
+	sound = "weapons/fn_fal/galil-1.mp3"
 })
 
 sound.Add({
@@ -821,14 +821,14 @@ sound.Add({
 	name = "hk416weapon.SilencedSingle",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/twinkie_hk416/m4a1-1.wav"
+	sound = "weapons/twinkie_hk416/m4a1-1.mp3"
 })
 
 sound.Add({
 	name = "hk416weapon.UnsilSingle",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/twinkie_hk416/m4a1_unsil-1.wav"
+	sound = "weapons/twinkie_hk416/m4a1_unsil-1.mp3"
 })
 
 sound.Add({
@@ -891,7 +891,7 @@ sound.Add({
 	name = "hk_g3_weapon.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
-	sound = "weapons/hk_g3/galil-1.wav"
+	sound = "weapons/hk_g3/galil-1.mp3"
 })
 
 sound.Add({
