@@ -215,7 +215,10 @@ function SWEP:ShootBullet(damage,_,num_bullets,aimcone)
 		KickHorizontal = self.Primary.KickHorizontal / 2
 	end
 
+	local Modifier = self.ViewPunchModifier or 0.25
 	local SharedRandom = Angle(util.SharedRandom("m9k_gun_kick1",-KickDown,-KickUp),util.SharedRandom("m9k_gun_kick2",-KickHorizontal,KickHorizontal),0)
+	SharedRandom:Mul(Modifier)
+
 	self.Owner:ViewPunch(SharedRandom) -- This needs to be shared
 
 	if SERVER and game.SinglePlayer() or SERVER and self.Owner:IsListenServerHost() then -- This is specifically for the host or when in singleplayer
